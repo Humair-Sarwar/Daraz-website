@@ -1,6 +1,6 @@
-let timing = document.querySelectorAll(".ending-in span");
-let saveMore = document.getElementById("saveMore");
-let cont = document.querySelector(".big-con");
+// let timing = document.querySelectorAll(".ending-in span");
+// let saveMore = document.getElementById("saveMore");
+// let cont = document.querySelector(".big-con");
 // saveMore.addEventListener("mouseenter",()=>{
 //     cont.style.opacity = "1";
 //     saveMore.addEventListener("mouseleave",()=>{
@@ -13,11 +13,11 @@ let cont = document.querySelector(".big-con");
 //         });
 //     })
 // })
-setInterval(()=>{
-    let dateget = new Date();
-    timing[0].innerText = dateget.getHours();
-    timing[1].innerText = dateget.getMinutes();
-    timing[2].innerText = dateget.getSeconds();
-},1000);
+// setInterval(()=>{
+//     let dateget = new Date();
+//     timing[0].innerText = dateget.getHours();
+//     timing[1].innerText = dateget.getMinutes();
+//     timing[2].innerText = dateget.getSeconds();
+// },1000);
 
 
